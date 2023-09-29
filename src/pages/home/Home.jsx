@@ -1,12 +1,15 @@
 
-import { HeroBanner, Trending } from '../index'
+import { HeroBanner, Popular, TopRated, Trending } from '../index'
 import './style.scss'
 
 function Home() {
   return (
     <div>
       <HeroBanner />
-      <Trending/>
+      <Trending />
+      <Popular/>
+      <TopRated/>
+
     </div>
   )
 }

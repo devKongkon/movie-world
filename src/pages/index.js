@@ -10,7 +10,6 @@ import VideoSection from "./details/videoSection/VideoSection";
 import Explore from "./explore/Explore";
 import Home from "./home/Home";
 import HeroBanner from "./home/heroBanner/HeroBanner";
-import Popular from "./home/popular/Popular";
 import TopRated from "./home/topRated/TopRated";
 import Trending from "./home/trending/Trending";
 import SearchResult from "./searchResult/SearchResult";
@@ -23,12 +22,16 @@ import Carousel from "../components/carousel/Carousel";
 import UseFetch from "../hook/UseFetch";
 import CircleRating from "../components/circleRating/CircleRating";
 import Genres from "../components/genres/Genres";
+import Popular from "./home/popular/Popular";
+
+
 
 
 
 
 
 export {
+    Popular,
     Genres,
     CircleRating,
     UseFetch,
@@ -47,7 +50,6 @@ export {
     Explore,
     Home,
     HeroBanner,
-    Popular,
     TopRated,
     Trending,
     SearchResult,
