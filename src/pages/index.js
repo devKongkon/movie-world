@@ -13,7 +13,6 @@ import HeroBanner from "./home/heroBanner/HeroBanner";
 import TopRated from "./home/topRated/TopRated";
 import Trending from "./home/trending/Trending";
 import SearchResult from "./searchResult/SearchResult";
-import PlayBtn from "./details/PlayBtn"
 import Layout from "../layout/Layout";
 import Img from "../components/lazyloadImage/Img";
 import Wrapper from "../components/wrapper/Wrapper";
@@ -23,14 +22,13 @@ import UseFetch from "../hook/UseFetch";
 import CircleRating from "../components/circleRating/CircleRating";
 import Genres from "../components/genres/Genres";
 import Popular from "./home/popular/Popular";
-
-
-
-
+import PosterFallBack from "../assets/no-poster.png"
 
 
 
 export {
+    
+    PosterFallBack,
     Popular,
     Genres,
     CircleRating,
@@ -41,7 +39,6 @@ export {
     Footer,
     PageNotFound,
     Details,
-    PlayBtn,
     Recommendation,
     Similar,
     Cast,

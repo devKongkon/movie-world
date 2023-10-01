@@ -1,7 +1,15 @@
-
+import { DetailsBanner, UseFetch } from '../../pages/index'
 import './style.scss'
+
+
+
 const Details = () => {
-  return <div>Details</div>;
+  
+  return (
+    <div>
+      <DetailsBanner/>
+    </div>
+  )
 };
 
 export default Details;
