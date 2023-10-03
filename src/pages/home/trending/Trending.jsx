@@ -10,7 +10,7 @@ import './style.scss'
 const Trending = () => {
   const [endpoint, setEndpoint] = useState("day")
 
-  const { data, loading } = UseFetch(`/trending/all/${endpoint}`)
+  const { data, loading } = UseFetch(`/trending/movie/${endpoint}`)
 
   const onTabChange = (tab) => {
     setEndpoint(tab === "Day" ? "day" : "week")

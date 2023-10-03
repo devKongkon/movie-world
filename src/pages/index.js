@@ -23,12 +23,22 @@ import CircleRating from "../components/circleRating/CircleRating";
 import Genres from "../components/genres/Genres";
 import Popular from "./home/popular/Popular";
 import PosterFallBack from "../assets/no-poster.png"
+import VideoPopup from "../components/videoPopup/VideoPopup";
+import Spinner from "../components/spinner/Spinner";
+import MovieCard from "../components/movieCard/MovieCard";
+
+
+
+
+
 
 
 
 export {
-    
+    MovieCard,
+    Spinner,
     PosterFallBack,
+    VideoPopup,
     Popular,
     Genres,
     CircleRating,
