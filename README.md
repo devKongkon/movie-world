@@ -1,4 +1,5 @@
-# Movie website with React, Redux toolkit, scss. I have implement search functionality, sorting, infinite scrolling, lazy loading and many.
+# React + Redux
+Movie website with React, Redux toolkit, scss. I have implement search functionality, sorting, infinite scrolling, lazy loading and many more.
 
-- [Website link](https://movieeworld.netlify.app/)
+- [website link](https://movieeworld.netlify.app/)
 
