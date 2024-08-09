@@ -1,5 +1,23 @@
-# React + Redux
-Movie website with React, Redux toolkit, scss. I have implement search functionality, sorting, infinite scrolling, lazy loading and many more.
+This is a [React.js] project bootstrapped with [`npm create vite@latest`].
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deploy on Netlify
+
+# React + Redux + SASS
+Movie website with React, Redux toolkit, SASS. I have implemented here search functionality, sorting, infinite scrolling, single moview page design, lazy loading and many more.
 
 - [website link](https://movieeworld.netlify.app/)
 
